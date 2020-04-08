@@ -21,6 +21,7 @@ app.use(bodyParser.urlencoded({extended:false}))
 app.use(cors());
 
 app.use('/poll', poll)
+app.use('/unpoll', unpoll)
 
 const port = 3000;
 
